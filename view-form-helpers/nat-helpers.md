@@ -35,10 +35,10 @@ and that becomes:
 </form>
 ```
 waala!
+
 the div stuff is just part of rails securrrrity. for now, don't worry bout it.
 
-cred to [ryan](https://github.com/rguerrettaz/dev_bootcamp_phase3_prep/tree/master/overview#forms)
-[try forms](https://github.com/rguerrettaz/dev_bootcamp_phase3_prep/tree/master/exercises#forms)
+cred to [ryan](https://github.com/rguerrettaz/dev_bootcamp_phase3_prep/tree/master/overview#forms), [do his tutorial](https://github.com/rguerrettaz/dev_bootcamp_phase3_prep/tree/master/exercises#forms)
 
 ## coming soon:
 `fields_for`
@@ -74,7 +74,7 @@ in rails we do:
 ```
 more examples:
 
-```erb
+```html
 link_to(name, url, options = {}, html_options = {})
 
 link_to "Profiles", profiles_path
@@ -85,7 +85,7 @@ link_to "Profile", profile_path(@profile)
 ```
 
 we can produce classes and ids for css:
-```erb
+```html
 link_to "Articles", articles_path, id: "news", class: "article"
 # => <a href="/articles" class="article" id="news">Articles</a>
 ```
@@ -97,7 +97,7 @@ link_to "Articles", articles_path, id: "news", class: "article"
 
 `image_tag(source, options = {})`
 
-we can add HTML attributes using the `options` +
+we can add HTML attributes using `options` +
 * `:alt` - if none is specified, will default to the source
 ```html
 image_tag("icon.png")  # =>
