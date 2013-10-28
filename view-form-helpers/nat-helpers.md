@@ -91,6 +91,7 @@ link_to "Articles", articles_path, id: "news", class: "article"
 ```
 
 [for practice](https://github.com/rguerrettaz/dev_bootcamp_phase3_prep/tree/master/exercises#links)
+
 [read the docs](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to)
 
 ## `image_tag`
