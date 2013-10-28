@@ -22,7 +22,7 @@ end
 
 then rails will assume that we have a view corresponding to the name of that method:
 
-```app/views/corgis/be_the_best_dog_ever.html.erb```
+`app/views/corgis/be_the_best_dog_ever.html.erb`
 
 ##### Sidenote: 
 .html.erb acts as two extensions - `html` for the browser and `erb` for rails
